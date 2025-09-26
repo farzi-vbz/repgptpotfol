@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Farzi — Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+<nav class="bg-white shadow sticky top-0 z-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between items-center h-16">
+      <!-- Logo -->
+      <h1 class="text-xl font-bold text-indigo-600">Farzi</h1>
+
+      <!-- Nav Links -->
+      <div class="hidden md:flex space-x-7">
+        <a href="#home" class="text-gray-700 hover:text-indigo-600 pt-1">Home</a>
+        <a href="#about" class="text-gray-700 hover:text-indigo-600 pt-1">About</a>
+        <a href="#projects" class="text-gray-700 hover:text-indigo-600 pt-1">Projects</a>
+        <a href="#contact" class="px-5 py-1 rounded-lg bg-indigo-600 text-white hover:bg-indigo-700 transition">Contact</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>Hi, I’m <span class="highlight">Farzi</span></h1>
+      <p>I'm an idiot without any idea about programing, I have done Btech in Civil engg but has no idea why ;)</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn primary">View Projects</a>
+        <a href="#about" class="btn secondary">About Me</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="py-20 bg-gray-50">
+  <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+    
+    <!-- Text -->
+    <div class="aboutcontainer">
+      <h2 class="text-3xl font-bold text-gray-800 mb-6 text-left md:text-left">
+        About Me
+      </h2>
+      <p class="text-gray-600 leading-relaxed">
+        I’m a normal shy guy without any real experence. Dreams forgotten rather killed down the line of life. 
+      Currently trying new things, trying to fill the empty hole with real experence and meaningful things.
+      </p>
+    </div>
+
+    <!-- Image -->
+    <div class="flex justify-center md:justify-end">
+      <img src="assets\black.webp" class="crop" alt="Farzi" class="rounded-xl shadow-lg w-80 h-80 object-cover">
+    </div>
+  </div>
+</section>
+
+
+  <!-- Projects Section -->
+  <section id="projects" class="section alt-bg fade-in">
+    <div class="aboutcontainer">
+      <h2 class="projecth text-3xl font-bold text-gray-800 mb-6 text-left md:text-left">Projects</h2>
+      <div class="grid">
+        <div class="card">
+          <img src="assets\cat.jpeg" alt="Veira Architect">
+          <h3 class="cardheading">OWN Constuction and Architect Firm</h3>
+          <p>My first official venture is an Architect and Constuction Firm</p>
+        </div>
+        <div class="card">
+          <img src="https://picsum.photos/400/250?random=3" alt="Project 2">
+          <h3>Project Two</h3>
+          <p>Another project description with details about what I learned while building it.</p>
+        </div>
+        <div class="card">
+          <img src="https://picsum.photos/400/250?random=4" alt="Project 3">
+          <h3>Project Three</h3>
+          <p>A fun or random project — because portfolios should show personality too 😎</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section fade-in">
+    <div class="container">
+      <h2 class="projecth text-3xl font-bold text-gray-800 mb-6 text-left md:text-left">Contact</h2>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" rows="4" required></textarea>
+        <button type="submit" class="btn primary">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Farzi</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
