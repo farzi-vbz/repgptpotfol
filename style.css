@@ -31,7 +31,7 @@ body {
   position: relative;
   height: 100vh;
   display: flex; align-items: center; justify-content: center;
-  text-align: left;
+  text-align: center;
   background: url("assets/cat.jpeg") no-repeat center center/cover;
   color: white;
 }
